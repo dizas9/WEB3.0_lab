@@ -1,0 +1,81 @@
+#rcorners1 {
+  border-radius: 20px;
+  background:green;
+  padding: 24px; 
+  width: 50px;
+  color: white;
+  
+}
+#borderimg { 
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(bak.jpg)  20 round;
+  color: blue;
+
+}
+#example1 {
+  background-image: url(img/oxford.gif), url(img/student.gif);
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
+  padding: 15px;
+  color: blue;
+}
+#grad1 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(red, yellow);
+}
+#h1 {
+  text-shadow: 2px 2px 5px red;
+}
+div.test {
+  white-space: nowrap; 
+  width: 289px; 
+  overflow: hidden; 
+  border: 1px solid #000000;
+}
+div.test:hover {
+  overflow: visible;
+}
+#div {
+  width: 300px;
+  height: 19px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+#myDiv {
+  transform: rotateX(150deg);
+  width: 300px;
+  height: 19px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+
+}
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+
+#d {
+  width: 300px;
+}
+
+
+
+
+
+
